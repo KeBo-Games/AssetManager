@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssetManager", "AssetManager", "{D3081E4B-F7D5-4398-AB34-0EB2E3A38A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{8C95842B-8C59-4790-80EA-6927EFDE9098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{57142A35-DCEE-4260-A1F9-323ED3F0E5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeBo.AssetManager.Server", "KeBo.AssetManager.Server\KeBo.AssetManager.Server.csproj", "{A5395CA6-3CD6-4B6D-97F3-21531D897756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeBo.AssetManager.Client", "KeBo.AssetManager.Client\KeBo.AssetManager.Client.csproj", "{00229B49-7891-4312-8D53-D2B788F6B4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5395CA6-3CD6-4B6D-97F3-21531D897756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5395CA6-3CD6-4B6D-97F3-21531D897756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5395CA6-3CD6-4B6D-97F3-21531D897756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5395CA6-3CD6-4B6D-97F3-21531D897756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00229B49-7891-4312-8D53-D2B788F6B4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00229B49-7891-4312-8D53-D2B788F6B4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00229B49-7891-4312-8D53-D2B788F6B4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00229B49-7891-4312-8D53-D2B788F6B4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C95842B-8C59-4790-80EA-6927EFDE9098} = {D3081E4B-F7D5-4398-AB34-0EB2E3A38A53}
+		{57142A35-DCEE-4260-A1F9-323ED3F0E5EA} = {D3081E4B-F7D5-4398-AB34-0EB2E3A38A53}
+		{A5395CA6-3CD6-4B6D-97F3-21531D897756} = {8C95842B-8C59-4790-80EA-6927EFDE9098}
+		{00229B49-7891-4312-8D53-D2B788F6B4D5} = {57142A35-DCEE-4260-A1F9-323ED3F0E5EA}
+	EndGlobalSection
+EndGlobal
